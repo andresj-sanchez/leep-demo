@@ -1,0 +1,88 @@
+.download-badge{
+    display: inline-block;
+    position: relative;
+    width: 135px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.googleplay-badge{
+    width: 155px;
+    height: 60px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.appstore-badge{
+    background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2017-09-08&kind=iossoftware&bubble=ios_apps) no-repeat;
+}
+
+footer{
+    background: #4ca786;
+    color: #184449;
+    text-align: center;
+    font-size: 1.3rem;
+}
+footer > div.container-fluid{
+    padding: 1rem 1rem 0 1rem;
+}
+footer a{
+    color: #184449;
+
+}
+footer a:hover{
+    color: #081618;
+    text-decoration: none;
+}
+
+footer ul{
+    font-family: 'Futura Medium';
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+footer li{
+    margin-bottom: 1rem;
+}
+
+footer h5{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.list-inline{
+    /* font-size: .8rem; */
+    margin-top: 1rem;
+}
+
+.list-inline img {
+    width: 1rem;
+}
+.list-inline li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+@media (min-width: 576px){
+    footer{
+        text-align: unset;
+        font-size: 1rem;
+    }
+    footer h5{
+        font-size: 1.3rem;
+    }
+    .list-inline{
+        font-size: .8rem;
+        margin-top: 1rem;
+    }
+}

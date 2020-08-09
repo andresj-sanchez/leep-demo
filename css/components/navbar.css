@@ -1,0 +1,46 @@
+@font-face{
+    font-family: 'Futura Medium';
+    /* src: url('/assets/fonts/futura-medium-bt.ttf') format('truetype'); */
+    src: url('../assets/fonts/futura-medium-bt.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Futura Heavy';
+    /* src: url('/assets/fonts/futura-heavy-font.ttf') format('truetype'); */
+    src: url('../assets/fonts/futura-heavy-font.ttf') format('truetype');
+    font-weight: normal;
+}
+
+nav{
+    background: #173032;
+}
+
+.navbar-nav{
+    font-size: .8rem;
+    letter-spacing: .2rem;
+}
+
+.navbar-nav li{
+    margin: 0 .5rem;
+}
+
+span.bg-active{
+    background: #5ebda3;
+    padding: .4rem 1.5rem;
+    border-radius: 10px;
+}
+
+.navbar-brand img{
+    width: 6rem;
+}
+
+@media (min-width: 576px){
+    nav{
+        background: none;
+    }
+
+    .navbar-brand img{
+        width: 9rem;
+    }
+}
