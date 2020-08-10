@@ -16,7 +16,6 @@ function renderPageForMobileDevices(){
         const markupSlogan = `
             <div class="col-md-6 w-75 mx-auto" id="slogan">
                 <p>Tu tiempo libre,<br> a tu manera.</p>
-                <a class="btn btn-warning" href="#">DESCARGAR</a>
             </div>
         `;
         const markupLinks = `
