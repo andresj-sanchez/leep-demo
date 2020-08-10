@@ -1,3 +1,74 @@
 body{
     background: #173032;
 }
+
+main{
+    margin-bottom: 5%;
+}
+
+#image{
+    height: 75vh;
+}
+
+#image img{
+    max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+
+#texto{
+    font-size: 1.2rem;
+    color: #4ca786;
+    text-align: center;
+    margin: 3rem 0;
+    padding: auto 0;
+}
+
+#texto h5{
+    font-size: 1.5rem;
+}
+
+#texto ul{
+    font-family: 'Futura Medium';
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+#texto li{
+    margin-bottom: 1rem;
+}
+
+#texto h5{
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+#texto a{
+    color: #4ca786;
+
+}
+#texto a:hover{
+    color: #3c856a;
+    text-decoration: none;
+}
+
+@media (min-width: 576px) {
+    h1{
+        font-size: 3rem;
+        color: white;
+    }
+    #texto{
+        text-align: left;
+        position: relative;
+        margin: 0;
+        padding-left: 5rem;
+    }
+    #texto h5{
+        font-size: 1.5rem;
+    }
+    .container{
+        margin-top: 1.5rem;
+    }
+}
