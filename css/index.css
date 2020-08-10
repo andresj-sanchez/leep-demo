@@ -12,8 +12,15 @@ main{
     border-top: 45vh solid #173032;
 }
 
-#phone-image img{
-    width: 75%;
+#phone-image{
+    height: 75vh;
+}
+
+#phone-image img{ 
+    max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
 }
 
 #slogan{
@@ -70,7 +77,7 @@ h1{
         left: 0;
         border-top: 8rem solid #173032;
     }
-    #content{
+    .container{
         margin-top: 1.5rem;
     }
 
