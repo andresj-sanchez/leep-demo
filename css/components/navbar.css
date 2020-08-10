@@ -12,6 +12,10 @@
     font-weight: normal;
 }
 
+body{
+    font-family: 'Futura Heavy' ,Arial, Helvetica, sans-serif;
+}
+
 nav{
     background: #173032;
 }
