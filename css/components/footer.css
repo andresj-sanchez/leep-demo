@@ -88,4 +88,8 @@ footer h5{
         font-size: .8rem;
         margin-top: 1rem;
     }
+
+    .email{
+        padding: 0;
+    }
 }
