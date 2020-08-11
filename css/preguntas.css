@@ -1,3 +1,24 @@
 body{
     background: #173032;
 }
+
+main{
+    margin-bottom: 5%;
+}
+
+#image{
+    height: 75vh;
+}
+
+#image img{
+    max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+
+@media (min-width: 576px){
+    .container{
+        margin-top: 1.5rem;
+    }
+}
