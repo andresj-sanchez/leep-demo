@@ -1,5 +1,5 @@
 body{
-    background: url(../assets/img/fondo-inicio.png) no-repeat top/100vw 45%;
+    background: url(../assets/img/fondo-inicio-movil.png) no-repeat top/auto 45%;
 }
 
 main{
@@ -47,6 +47,7 @@ h1{
 
 @media (min-width: 576px) {
     body{
+        background-image: url('../assets/img/fondo-inicio.png');
         background-repeat: no-repeat;
         background-position: top;
         background-size: 100vw 50%;
