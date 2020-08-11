@@ -1,3 +1,7 @@
+body{
+    background: url('../assets/img/fondo-inicio.png') no-repeat top/auto 80%;
+}
+
 main{
     margin-bottom: 5%;
 }
@@ -42,6 +46,11 @@ h1{
 }
 
 @media (min-width: 576px) {
+    body{
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100vw 90%;
+    }
     #slogan{
         font-size: 3rem;
         color: white;
