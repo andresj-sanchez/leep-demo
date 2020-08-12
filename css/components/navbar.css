@@ -17,7 +17,7 @@ body{
 }
 
 nav{
-    background: #173032;
+    background: url('../../assets/img/fondo-navbar.jpg');
 }
 
 .navbar-nav{
@@ -40,9 +40,9 @@ span.bg-active{
 }
 
 @media (min-width: 576px){
-    nav{
+    /* nav{
         background: none;
-    }
+    } */
 
     .navbar-brand img{
         width: 9rem;

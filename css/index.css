@@ -1,5 +1,5 @@
 body{
-    background: url(../assets/img/fondo-inicio-movil.png) no-repeat top/auto 40%;
+    background: url(../assets/img/fondo-inicio-movil.jpg) no-repeat top/auto 70%;
 }
 
 main{
@@ -48,10 +48,10 @@ h1{
 
 @media (min-width: 576px) {
     body{
-        background-image: url('../assets/img/fondo-inicio.png');
+        background-image: url('../assets/img/fondo-inicio.jpg');
         background-repeat: no-repeat;
         background-position: top;
-        background-size: 100vw 50%;
+        background-size: 100vw 90%;
     }
     #slogan{
         font-size: 3rem;
