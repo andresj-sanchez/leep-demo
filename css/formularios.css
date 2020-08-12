@@ -1,8 +1,9 @@
 body{
-    background: url(../assets/img/fondo-formularios.jpg) no-repeat top/100vw 90%;
+    background: url(../assets/img/fondo-formularios-movil.jpg) no-repeat top/auto 70%;
 }
 
 main{
+    margin-top: 10%;
     margin-bottom: 5%;
 }
 
@@ -26,6 +27,15 @@ main{
 }
 
 @media (min-width: 576px) {
+    body{
+        background: url(../assets/img/fondo-formularios.jpg) no-repeat top/100vw 90%;
+    }
+    .container{
+        margin-top: 1.5rem;
+    }
+    .restaurantes{
+        margin-right: 1rem;
+    }
     h1{
         font-size: 3rem;
         color: white;

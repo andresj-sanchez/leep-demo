@@ -1,5 +1,5 @@
 body{
-    background: url(../assets/img/fondo-preguntas.jpg) no-repeat top/100vw 90%;
+    background: url(../assets/img/fondo-preguntas-movil.jpg) no-repeat top/auto 75%;
 }
 
 nav{
@@ -19,6 +19,7 @@ nav{
 }
 
 main{
+    margin-top: 10%;
     margin-bottom: 5%;
 }
 
@@ -39,6 +40,9 @@ iframe{
 }
 
 @media (min-width: 576px){
+    body{
+        background: url(../assets/img/fondo-preguntas.jpg) no-repeat top/100vw 90%;
+    }
     .container{
         margin-top: 1.5rem;
     }

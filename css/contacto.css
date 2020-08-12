@@ -1,8 +1,9 @@
 body{
-    background: #173032;
+    background: url(../assets/img/fondo-inicio-movil.jpg) no-repeat top/auto 60%;
 }
 
 main{
+    margin-top: 10%;
     margin-bottom: 5%;
 }
 
@@ -21,7 +22,7 @@ main{
     font-size: 1.2rem;
     color: #4ca786;
     text-align: center;
-    margin: 3rem 0;
+    margin: 2rem 0;
     padding: auto 0;
 }
 
@@ -55,6 +56,12 @@ main{
 }
 
 @media (min-width: 576px) {
+    body{
+        background-image: url('../assets/img/fondo-inicio.jpg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100vw 90%;
+    }
     h1{
         font-size: 3rem;
         color: white;
