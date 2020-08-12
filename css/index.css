@@ -16,11 +16,55 @@ main{
     border-top: 45vh solid #173032;
 }
 
-#phone-image img{ 
+#phone-image img:first-child{ 
     max-width: 100%;
   max-height: 100%;
   margin: auto;
   display: block;
+}
+
+.heart{
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    height: 10%;
+    opacity: 0;
+    animation: 2s linear 3 hearts normal;
+}
+
+#phone-image .heart:nth-child(2){
+    right: 10%;
+    animation-delay: 5.5s;
+}
+#phone-image .heart:nth-child(3){
+    right: 20%;
+    animation-delay: 5s;
+}
+#phone-image .heart:nth-child(4){
+    right: 30%;
+    animation-delay: 6s;
+}
+
+@keyframes hearts{
+    0%{
+        transform: rotate(20deg);
+        opacity: 0;
+    }
+    50%{
+        transform: rotate(-20deg) translate3d(0, -5rem, 0);
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(20deg) translate3d(0, -10rem, 0);
+        opacity: 0;
+    }
+}
+
+#phone-image img:last-child{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    height: 10%;
 }
 
 #slogan{

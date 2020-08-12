@@ -39,6 +39,15 @@ iframe{
     height: 820px;
 }
 
+.hide{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url('../../assets/img/fondo-navbar.jpg');
+    height: 175px;
+    width: 100%;
+}
+
 @media (min-width: 576px){
     body{
         background: url(../assets/img/fondo-preguntas.jpg) no-repeat top/100vw 90%;
@@ -49,5 +58,9 @@ iframe{
 
     iframe{
         height: 730px;
+    }
+
+    .hide{
+        height: 90px;
     }
 }
