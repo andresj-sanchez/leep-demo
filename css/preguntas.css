@@ -43,7 +43,7 @@ iframe{
     position: absolute;
     bottom: 0;
     left: 0;
-    background: url('../../assets/img/fondo-navbar.jpg');
+    background: url('../assets/img/fondo-navbar.jpg');
     height: 175px;
     width: 100%;
 }
