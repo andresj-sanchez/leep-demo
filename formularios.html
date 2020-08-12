@@ -55,16 +55,16 @@
         <div class="col-md-6" id="phone-image">
           <img src="./assets/img/phone-deliveryman.png" alt="una publicacion del intagram de leep en un telefono">
         </div>
-        <div class="col-md-6 d-flex flex-column justify-content-center" id="slogan">
-          <div class="w-75 mx-auto">
+        <div class="col-md-6 d-flex flex-column justify-content-center" id="download-content">
+          <div class="w-75 mx-auto" id="slogan">
             <h1>
               Descarga<br>
               Nuestros<br>
               Formularios
             </h1>
           </div>
-          <div class="w-75 mx-auto">
-            <a class="btn btn-warning restaurantes" href="#">RESTAURANTES</a>
+          <div class="w-75 mx-auto" id="links">
+            <a class="btn btn-warning" href="#">RESTAURANTES</a>
             <a class="btn btn-warning" href="#">CLIENTES</a>
           </div>
         </div>
@@ -128,6 +128,15 @@
       </div>
     </footer>
 
+    <script src="./js/responsive.js"></script>
+    <script>
+      const divDownloadContent = document.getElementById('download-content');
+      const div1 = document.getElementById('phone-image');
+      const div2 = document.getElementById('slogan');
+      const div3 = document.getElementById('links');
+      renderPageForMobileDevices();
+      window.addEventListener("resize", renderPageForMobileDevices);
+    </script>
     <script src="./js/footer.js"></script>
     <script defer src="./assets/icons/svgxuse.js"></script>
 

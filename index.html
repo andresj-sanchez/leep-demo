@@ -130,7 +130,15 @@
       </div>
     </footer>
 
-    <script src="./js/index.js"></script>
+    <script src="./js/responsive.js"></script>
+    <script>
+      const divDownloadContent = document.getElementById('download-content');
+      const div1 = document.getElementById('phone-image');
+      const div2 = document.getElementById('slogan');
+      const div3 = document.getElementById('links');
+      renderPageForMobileDevices();
+      window.addEventListener("resize", renderPageForMobileDevices);
+    </script>
     <script src="./js/footer.js"></script>
     <script defer src="./assets/icons/svgxuse.js"></script>
 
