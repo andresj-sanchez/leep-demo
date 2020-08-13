@@ -10,6 +10,10 @@
     overflow: hidden;
 }
 
+.download-badge img:last-child{
+    width: 100%;
+}
+
 footer{
     background: url('../../assets/img/fondo-footer.jpg');
     color: #184449;
