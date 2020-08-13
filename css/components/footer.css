@@ -14,7 +14,7 @@ footer{
     background: url('../../assets/img/fondo-footer.jpg');
     color: #184449;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1rem;
     word-wrap: break-word;
 }
 footer > div.container-fluid{
@@ -41,7 +41,7 @@ footer li{
 
 footer h5{
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .list-inline{
