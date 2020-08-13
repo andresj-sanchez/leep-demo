@@ -10,14 +10,6 @@
     overflow: hidden;
 }
 
-.googleplay-badge{
-    width: 155px;
-    height: 60px;
-    position: absolute;
-    top: -10px;
-    left: -10px;
-}
-
 footer{
     background: url('../../assets/img/fondo-footer.jpg');
     color: #184449;
