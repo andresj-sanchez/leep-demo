@@ -29,12 +29,11 @@ footer > div.container-fluid{
     padding: 1rem 1rem 0 1rem;
 }
 footer a{
-    color: #184449;
-
+    color: #0d2725;
+    text-decoration: underline;
 }
 footer a:hover{
-    color: #081618;
-    text-decoration: none;
+    color: #000000;
 }
 
 footer ul{

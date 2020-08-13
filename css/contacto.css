@@ -53,14 +53,13 @@ main{
     font-size: 2rem;
 }
 
-#texto a{
-    color: #4ca786;
-
+/* #texto a{
+    color: #61d6ab;
+    text-decoration: underline;
 }
 #texto a:hover{
     color: #3c856a;
-    text-decoration: none;
-}
+} */
 
 @media (min-width: 576px) {
     body{
